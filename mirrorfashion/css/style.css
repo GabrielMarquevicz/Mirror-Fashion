@@ -1,5 +1,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 }
 .fundo{
     background-color: gray;
@@ -19,6 +23,7 @@ body{
 }
 .compre p{
     margin: 0;
+    text-indent: 15px;
 }
 .fundo1{
     background-color: gray;
@@ -42,4 +47,33 @@ body{
 }
 .final img{
     width: 100px;
+}
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+
+}
+#historia{
+   border-bottom: 2px solid #333333;
+}
+#diferenciais{
+    border-bottom: 2px solid #333333;
+}
+#centro-distribuicao{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 550px;
+}
+#rodape img{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+#rodape{
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+#logon{
+    margin-bottom: 15px;   
 }

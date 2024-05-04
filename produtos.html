@@ -25,11 +25,28 @@
       </ul>
     </nav>
   </header>
-  <form>
-    <input type="radio" name="cor">Verde
-    <input type="radio" name="cor">Rosa
-    <input type="radio" name="cor">Azul
-  </form>
+  <div class="container">
+    <div class="produto">
+      <form>
+        <fieldset class="cores">
+          <legend>Escolha a cor</legend>
+          <input type="radio" name="cor" id="verde" checked>
+          <label for="verde">
+            <img src="mirrorfashion/img/produtos/foto1-verde.png" alt="Produto na cor verde">
+          </label>
+          <input type="radio" name="cor" id="vermelho">
+          <label for="vermelho">
+            <img src="mirrorfashion/img/produtos/foto1-rosa.png" alt="Produto na cor vermelho">
+          </label>
+          <input type="radio" name="cor" id="roxo">
+          <label for="roxo">
+            <img src="mirrorfashion/img/produtos/foto1-azul.png" alt="Produto na cor roxo">
+          </label>
+        </fieldset>
+        <button class="comprar">Comprar</button>
+      </form>
+    </div>
+  </div>
   <footer>
     <div class="container">
       <img src="mirrorfashion/img/logo-rodape.png" alt="logorodape" />
